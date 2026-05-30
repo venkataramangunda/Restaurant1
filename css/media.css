@@ -1,0 +1,71 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+
+    .white-bar,
+    .red-bar {
+        width: 50%;
+        margin: 20px auto;
+    }
+
+    .mass-padding {
+        padding: 50px 0 50px;
+    }
+    .mass-header {
+        margin-bottom: 0px;
+    }
+    #header {
+        background-color: rgba(0, 0, 0, .7);
+    }
+
+    #header img {
+        width: 25%;
+    }
+
+    #banner .banner-content h1 {
+        font-size: 30px;
+    }
+
+    #banner .banner-content .btn-table,
+    #banner .banner-content .btn-call {
+        font-weight: 500;
+        font-size: 18px;
+        color: #fff;
+        padding: 12px 10px 5px;
+    }
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .mass-padding {
+        padding: 70px 0 60px;
+    }
+    #header {
+        background-color: rgba(0, 0, 0, .7);
+    }
+    #header img {
+        width: 70%;
+    }
+    #banner .banner-content h1 {
+        font-size: 50px;
+    }
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #header {
+        background-color: rgba(0, 0, 0, .7);
+    }
+    #banner .banner-content h1 {
+        font-size: 60px;
+    }
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    
+}

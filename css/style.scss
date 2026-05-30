@@ -1,0 +1,187 @@
+@font-face {
+    font-family: 'focus i';
+    src: url(../fonts/Focus-Italic.ttf);
+}
+@font-face {
+    font-family: 'focus r';
+    src: url(../fonts/focus-regular.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'focus r';
+}
+.mass-padding {
+    padding: 100px 0;
+}
+.mass-header {
+    font-family: 'Marck Script',
+    cursive;
+    font-size: 36px;
+    color: #fb5231;
+    line-heigt: .1;
+    margin-bottom: 40px;
+    h1 {
+        margin-bottom: -20px;
+    }
+}
+//header start
+#header {
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+    .mainav {
+        a {
+            color: #fff !important;
+            transition: all .3s;
+        }
+        a:hover {
+            color: #FB5231 !important;
+        }
+        .active {
+            color: #FB5231 !important;
+        }
+    }
+    .navbar-social {
+        a {
+            text-decoration: none;
+            color: #6D7080;
+        }
+    }
+}
+//header end
+//banner start
+#banner {
+    background: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    .banner-row {
+        min-height: 100vh;
+    }
+    .banner-content {
+        h1 {
+            font-family: 'Marck Script', cursive;
+            font-size: 90px;
+            color: #fff;
+        }
+        .btn-table,
+        .btn-call {
+            font-weight: 500;
+            font-size: 18px;
+            color: #fff;
+            padding: 12px 50px 6px;
+        }
+        .btn-table {
+            background-color: rgba(251, 82, 49, .7);
+            margin-right: 20px;
+        }
+        .btn-table:hover {
+            background-color: rgba(251, 82, 49, 1);
+        }
+        .btn-call {
+            border: 1px solid #fff;
+            background-color: rgba(255, 255, 255, .2);
+        }
+        .btn-call:hover {
+            background-color: rgba(255, 255, 255, .8);
+            color: rgba(0, 0, 0, 1);
+        }
+    }
+}
+//banner end
+//story start
+#story {
+    background: url(../images/second-bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    .story-header {
+        
+    }
+    .person-with-sign {
+        margin-top: 60px;
+        position: relative;
+    }
+}
+//story end
+//ingredient start
+#ingredient {
+    .ingredient-right-col {
+        background: url(../images/fine-red.jpg) no-repeat center;
+        background-size: cover;
+    }
+}
+//ingredient end
+//price start
+#price {
+    background: url(../images/price-bg.jpg) no-repeat center;
+    background-size: cover;
+    color: #fff;
+    .single {
+        margin-bottom: 40px;
+        .single-section {
+            margin-bottom: 12px;
+        }
+        .name {
+            font-weight: bold;
+            font-size: 21px;
+            margin-bottom: 10px;
+            display: inline-block;
+        }
+        .ammount {
+            font-size: 21px;
+        }
+    }
+}
+//price end
+//review start
+#review {
+    .review-content {
+        h2 {
+            font-family: 'Marck Script', cursive;
+            font-size: 41px;
+            color: #1a1f3b;
+        }
+        ul {
+            li {
+                color: #FAC917;
+            }
+        }
+    }
+}
+//review end
+//contact start
+#contact {
+    background: url(../images/contact-bg.jpg) no-repeat center;
+    background-size: cover;
+    .contact-content {
+        form {
+            color: #fb5231;
+            .btn-book {
+                display: block;
+                margin: 0 auto;
+                padding: 10px 40px 6px;
+                background-color: rgba(251, 82, 49, .9);
+                color: #fff;
+            }
+            .btn-book:hover {
+                background-color: rgba(251, 82, 49, 1);
+            }
+        }
+    }
+}
+//contact end
+//footer start
+#footer {
+    background: url(../images/footer-bg.jpg) no-repeat center;
+    background-size: cover;
+}
+//footer end

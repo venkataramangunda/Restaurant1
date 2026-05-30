@@ -1,0 +1,164 @@
+@font-face {
+  font-family: "focus i";
+  src: url(../fonts/Focus-Italic.ttf);
+}
+@font-face {
+  font-family: "focus r";
+  src: url(../fonts/focus-regular.ttf);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "focus r";
+}
+
+.mass-padding {
+  padding: 100px 0;
+}
+
+.mass-header {
+  font-family: "Marck Script", cursive;
+  font-size: 36px;
+  color: #fb5231;
+  line-heigt: 0.1;
+  margin-bottom: 40px;
+}
+.mass-header h1 {
+  margin-bottom: -20px;
+}
+
+#header {
+  position: absolute;
+  width: 100%;
+  z-index: 999;
+}
+#header .mainav a {
+  color: #fff !important;
+  transition: all 0.3s;
+}
+#header .mainav a:hover {
+  color: #FB5231 !important;
+}
+#header .mainav .active {
+  color: #FB5231 !important;
+}
+#header .navbar-social a {
+  text-decoration: none;
+  color: #6D7080;
+}
+
+#banner {
+  background: url(../images/banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#banner .banner-row {
+  min-height: 100vh;
+}
+#banner .banner-content h1 {
+  font-family: "Marck Script", cursive;
+  font-size: 90px;
+  color: #fff;
+}
+#banner .banner-content .btn-table,
+#banner .banner-content .btn-call {
+  font-weight: 500;
+  font-size: 18px;
+  color: #fff;
+  padding: 12px 50px 6px;
+}
+#banner .banner-content .btn-table {
+  background-color: rgba(251, 82, 49, 0.7);
+  margin-right: 20px;
+}
+#banner .banner-content .btn-table:hover {
+  background-color: #fb5231;
+}
+#banner .banner-content .btn-call {
+  border: 1px solid #fff;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+#banner .banner-content .btn-call:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: black;
+}
+
+#story {
+  background: url(../images/second-bg.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#story .person-with-sign {
+  margin-top: 60px;
+  position: relative;
+}
+
+#ingredient .ingredient-right-col {
+  background: url(../images/fine-red.jpg) no-repeat center;
+  background-size: cover;
+}
+
+#price {
+  background: url(../images/price-bg.jpg) no-repeat center;
+  background-size: cover;
+  color: #fff;
+}
+#price .single {
+  margin-bottom: 40px;
+}
+#price .single .single-section {
+  margin-bottom: 12px;
+}
+#price .single .name {
+  font-weight: bold;
+  font-size: 21px;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+#price .single .ammount {
+  font-size: 21px;
+}
+
+#review .review-content h2 {
+  font-family: "Marck Script", cursive;
+  font-size: 41px;
+  color: #1a1f3b;
+}
+#review .review-content ul li {
+  color: #FAC917;
+}
+
+#contact {
+  background: url(../images/contact-bg.jpg) no-repeat center;
+  background-size: cover;
+}
+#contact .contact-content form {
+  color: #fb5231;
+}
+#contact .contact-content form .btn-book {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 40px 6px;
+  background-color: rgba(251, 82, 49, 0.9);
+  color: #fff;
+}
+#contact .contact-content form .btn-book:hover {
+  background-color: #fb5231;
+}
+
+#footer {
+  background: url(../images/footer-bg.jpg) no-repeat center;
+  background-size: cover;
+}
+
+/*# sourceMappingURL=style.css.map */
